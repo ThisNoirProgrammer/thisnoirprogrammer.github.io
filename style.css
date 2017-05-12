@@ -39,3 +39,7 @@ footer {
     right: 0;
     color: #FFF;
 }
+
+.clear {
+    clear: both;
+}
