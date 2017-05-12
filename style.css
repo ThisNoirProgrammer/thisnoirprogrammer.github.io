@@ -20,8 +20,8 @@ nav a:link, nav a:visited {
 }
 
 nav a:hover {
-    color: #FFF;
-    background: #551A8B;
+    color: #551A8B;
+    background: #FFF;
 }
 
 nav li {
