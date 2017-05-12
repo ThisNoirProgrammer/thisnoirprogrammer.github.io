@@ -19,10 +19,6 @@ nav a:link, nav a:visited {
     padding: 10px;
 }
 
-header img { 
-    float: 10px;
-}
-
 nav a:hover {
     color: #FFF;
     background: #551A8B;
