@@ -1,10 +1,41 @@
 header {
-    background: #00F;
+    background: #551A8B;
     padding: 10px;
 }
 
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+    float: 10px;
+}
+
+nav a:link, nav a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+header img { 
+    float: 10px;
+}
+
+nav a:hover {
+    color: #FFF;
+    background: #551A8B;
+}
+
+nav li {
+    display:inline-block;
+    border-radius: 25px;
+}
+
+
 footer {
-    background: #00F;
+    background: #551A8B;
     padding: 10px;
     position: absolute;
     bottom: 0;
