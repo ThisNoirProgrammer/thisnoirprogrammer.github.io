@@ -52,4 +52,5 @@ body {
 div.words {
     color: #551A8B;
     margin: 0 20px;
+    flex: 1;
 }
