@@ -1,6 +1,6 @@
 header {
     background: #551A8B;
-    padding: 30px;
+    padding: 0 10px;
     left: 0;
     right: 0;
     top: 0;
@@ -24,6 +24,7 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: #551A8B;
     background: #FFF;
+    transition: all .25s ease-in-out;
 }
 
 nav li {
@@ -33,7 +34,7 @@ nav li {
 
 footer {
     background: #551A8B;
-    padding: 10px;
+    padding: 0 10px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -45,13 +46,17 @@ footer {
     clear: both;
 }
 
+html, body {
+    height: 100%;
+}
+    
+
 body {
-    margin: absolute;
+    margin: 0;
 }
 
 div.words {
-    background-color: 551A8B;
-    color: white;
-    margin: 20px 0 20px 0;
-    padding: 20px;
+    color: #551A8B;
+    margin: 0 20px;
+    min-height: calc(100% - 104px);
 }
