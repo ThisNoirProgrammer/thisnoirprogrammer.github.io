@@ -42,15 +42,21 @@ html, body {
     height: 100%;
 }
     
+div.container {
+    display: flex;
+    flex-direction: column;
+}
 
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
 }
 
 div.words {
     color: #551A8B;
     margin: 0 20px;
     flex: 1;
+}
+
+#Special {
+    
 }
