@@ -1,9 +1,6 @@
 header {
     background: #551A8B;
     padding: 0 10px;
-    left: 0;
-    right: 0;
-    top: 0;
 }
 
 nav ul {
@@ -34,11 +31,6 @@ nav li {
 
 footer {
     background: #551A8B;
-    padding: 0 10px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     color: #FFF;
 }
 
@@ -53,10 +45,11 @@ html, body {
 
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 div.words {
     color: #551A8B;
     margin: 0 20px;
-    min-height: calc(100% - 104px);
 }
