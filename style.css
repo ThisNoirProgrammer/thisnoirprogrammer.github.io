@@ -2,7 +2,7 @@
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 4;
     top: 0;
     right: 0;
     background-color: #551A8B;
@@ -34,10 +34,33 @@
 
 body {
     font-family: "Lato", sans-serif;
+    line-height: 1.7em;
+    color: #694489;
 }
 
 .toggle {
-    float= right;
+    float: right;
 }
 
+.navbar-home {
+    background:#551A8B;
+    z-index: 3;
+    position: fixed!important;
+    padding: 25px;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.footer {
+    background: #551A8B;
+}
+
+.is-center {
+    text-align: center;
+}
+
+.l-box {
+    padding: 1em;
+}
 
