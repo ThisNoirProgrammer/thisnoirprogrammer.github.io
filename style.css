@@ -1,62 +1,37 @@
-header {
-    background: #551A8B;
-    padding: 0 10px;
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #551A8B; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
-nav ul {
-    padding: 0;
-    list-style-type: none;
-    float: right;
-    float: 10px;
-}
-
-nav a:link, nav a:visited {
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    color: #fff;
-    font-size: 1.125em;
-    font-weight: bold;
-    padding: 10px;
-}
-
-nav a:hover {
+    font-size: 25px;
     color: #551A8B;
-    background: #FFF;
-    transition: all .25s ease-in-out;
+    display: block;
+    transition: 0.3s
 }
 
-nav li {
-    display:inline-block;
-    border-radius: 25px;
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #BDA0CB;
 }
 
-footer {
-    background: #551A8B;
-    color: #FFF;
-}
-
-.clear {
-    clear: both;
-}
-
-html, body {
-    height: 100%;
-}
-    
-div.container {
-    display: flex;
-    flex-direction: column;
-}
-
-body {
-    margin: 0;
-}
-
-div.words {
-    color: #551A8B;
-    margin: 0 20px;
-    flex: 1;
-}
-
-.Special {
-    
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
