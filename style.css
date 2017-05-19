@@ -10,7 +10,7 @@ body {
     color: #694489;
 }
 
-.Main-Content {
+.Scrolling-Effect1 {
     /* These styles are required for the "scroll-over" effect */
     position: absolute;
     top: 87%;
@@ -20,7 +20,7 @@ body {
     background: #BDA0CB;
 }
 
-.Scrolling-Effect1 {
+.Main-content {
     background: #FFF;
     z-index: 1;
     overflow: hidden;
