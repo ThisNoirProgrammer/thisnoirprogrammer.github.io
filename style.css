@@ -45,7 +45,7 @@
 .navbar-home {
     background:#551A8B;
     z-index: 4;
-    position: fixed!important;
+    position: fixed;
     padding: 25px;
     top: 0;
     right: 0;
