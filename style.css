@@ -4,54 +4,6 @@
     box-sizing: border-box;
 }
 
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 5;
-    top: 0;
-    right: 0;
-    background-color: #551A8B;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #BDA0CB;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-.toggle {
-    float: right;
-}
-
-.navbar-home {
-    background:#551A8B;
-    z-index: 4;
-    position: fixed;
-    padding: 25px;
-    top: 0;
-    right: 0;
-    left: 0;
-}
-
 body {
     font-family: "Lato", sans-serif;
     line-height: 1.7em;
