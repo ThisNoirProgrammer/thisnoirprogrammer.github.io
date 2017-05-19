@@ -17,14 +17,14 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #BDA0CA;
+    color: #BDA0CB;
     display: block;
     transition: 0.3s
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover, .offcanvas a:focus{
-    color: #BDA0CB;
+    color: #FFF;
 }
 
 /* Position and style the close button (top right corner) */
