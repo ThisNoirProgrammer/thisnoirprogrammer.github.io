@@ -9,10 +9,6 @@ html {
     height: 100%;
 }
 
-.Overall-Content {
-    flex: 1;
-}
-
 h1, h2, h3 {
   margin: 20px;
 }
@@ -30,11 +26,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-}
-
-.Scrolling-Effect1{
-    background: #BDA0CB;
-    color: #551A8B;
 }
 
 .footer {
